@@ -11,3 +11,9 @@ rvm:
   - rbx-19mode
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
+notifications:
+  email:
+    recipients:
+      - nguyen.yen@mulodo.com
+    on_success: [never] # default: change
+    on_failure: [always] # default: always
